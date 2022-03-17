@@ -456,6 +456,15 @@ export default class ReactionAPICore {
       );
     }
 
+    // Add auth context to express requests
+    this.expressApp.use(async (req, _, next) => {
+      if (req) {
+        await buildContext(this.context, req);
+      }
+      req.context = this.context;
+      next();
+    });
+
     // Serve files in the /public folder statically
     for (const staticPath of serveStaticPaths) {
       this.expressApp.use(express.static(staticPath));

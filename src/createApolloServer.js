@@ -125,7 +125,6 @@ export default function createApolloServer(options = {}) {
 
   // GraphQL endpoint, enhanced with JSON body parser
   app.use.apply(app, [
-    path,
     // set a higher limit for data transfer, which can help with GraphQL mutations
     // `express` default is 100kb
     // AWS default is 5mb, which we'll use here

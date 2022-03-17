@@ -1,5 +1,5 @@
 {
-  "name": "@reactioncommerce/api-core",
+  "name": "@demandcluster/api-core",
   "version": "0.0.0-development",
   "description": "This NPM package provides the `ReactionAPICore` class. Use this to build a NodeJS microservice that is compatible with the Reaction Commerce platform, or to build your main Reaction Commerce API if you don't want to start by forking the `https://github.com/reactioncommerce/reaction` project.",
   "main": "./src/index.js",
@@ -8,17 +8,17 @@
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-core",
-  "url": "https://github.com/reactioncommerce/api-core",
-  "email": "engineering@reactioncommerce.com",
+  "homepage": "https://github.com/demandcluster/api-core",
+  "url": "https://github.com/demandcluster/api-core",
+  "email": "engineering@demandcluster.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactioncommerce/api-core.git"
+    "url": "https://github.com/demandcluster/api-core.git"
   },
-  "author": "Reaction Commerce <hello@reactioncommerce.com>",
+  "author": "Reaction Commerce <hello@demandcluster.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-core/issues"
+    "url": "https://github.com/demandcluster/api-core/issues"
   },
   "scripts": {
     "test": "npm run test:unit",
